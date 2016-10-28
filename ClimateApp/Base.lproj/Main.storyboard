@@ -264,7 +264,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cityLabel" destination="ccU-ym-vhy" id="Oma-vE-YP2"/>
+                        <outlet property="dateLabel" destination="z2T-iT-awy" id="Sia-pp-nnp"/>
                         <outlet property="tableView" destination="piR-OP-tkj" id="4Rc-zG-rAU"/>
+                        <outlet property="tempLabel" destination="QNV-BL-lvs" id="LTr-0c-YvS"/>
+                        <outlet property="weatherImage" destination="0eU-8t-sfn" id="me7-5P-7Cb"/>
+                        <outlet property="weatherType" destination="FiZ-vU-RXm" id="TIe-rb-3Ll"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xJ-tA-mam" userLabel="First Responder" sceneMemberID="firstResponder"/>

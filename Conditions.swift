@@ -8,9 +8,10 @@
 
 import Foundation
 
-let URL = "http://api.openweathermap.org/data/2.5/weather?"
-let Lat = "lat= "
+let bURL = "http://api.openweathermap.org/data/2.5/weather?"
+let Lat = "lat="
 let Lon = "&lon="
 let appID = "&appid="
 let appKey = "e6e4c4f1b2ab1ba2a87b0d344815dc2a"
-let current_Weather_Url = "\(URL)\(Lat)-40\(Lon)180\(appID)\(appKey)"
+typealias DownloadComplete = () -> ()
+var Current_Weather_Url:String? = "\(bURL)\(Lat)30\(Lon)180\(appID)\(appKey)"

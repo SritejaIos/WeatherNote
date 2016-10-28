@@ -10,14 +10,26 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet var cityLabel: UILabel!
     @IBOutlet var tableView: UITableView!
+    @IBOutlet var dateLabel: UILabel!
+    @IBOutlet var tempLabel: UILabel!
+    @IBOutlet var weatherImage: UIImageView!
+    @IBOutlet var weatherType: UILabel!
+    
+    
+    
+    var currentWeather = CurrentWeather()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.delegate = self
         tableView.dataSource = self
-         print(current_Weather_Url)
-        
+        currentWeather.downloadWeatherDetails {
+
+        }
+       
     }
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

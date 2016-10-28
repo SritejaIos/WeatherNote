@@ -16,7 +16,7 @@
 		32A506EB1DBE8D280035709E /* ClimateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A506EA1DBE8D280035709E /* ClimateAppUITests.swift */; };
 		32A506FB1DBFFA360035709E /* Rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A506FA1DBFFA360035709E /* Rain.png */; };
 		32A5071E1DC29C310035709E /* Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5071D1DC29C310035709E /* Conditions.swift */; };
-		32A507201DC2A0640035709E /* weatherClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5071F1DC2A0640035709E /* weatherClass.swift */; };
+		32DB3A2C1DC2C9D9008E1BC1 /* currentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */; };
 		AC04A53D4C9880AF68FE8443 /* Pods_ClimateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6D335DE507D9CFD9C48E5 /* Pods_ClimateApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		32A506FA1DBFFA360035709E /* Rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rain.png; sourceTree = "<group>"; };
 		32A506FC1DC0007B0035709E /* Climapte app.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Climapte app.sketch"; sourceTree = "<group>"; };
 		32A5071D1DC29C310035709E /* Conditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Conditions.swift; path = ../Conditions.swift; sourceTree = "<group>"; };
-		32A5071F1DC2A0640035709E /* weatherClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = weatherClass.swift; path = ../weatherClass.swift; sourceTree = "<group>"; };
+		32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = currentWeather.swift; path = ../currentWeather.swift; sourceTree = "<group>"; };
 		74A6D335DE507D9CFD9C48E5 /* Pods_ClimateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F62D5B95E106BF7F3F2FD12 /* Pods-ClimateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimateApp/Pods-ClimateApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EDAD16869156449F5F4741A8 /* Pods-ClimateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimateApp/Pods-ClimateApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 				32A506CE1DBE8D270035709E /* Main.storyboard */,
 				32A506D11DBE8D270035709E /* Assets.xcassets */,
 				32A506D31DBE8D270035709E /* LaunchScreen.storyboard */,
+				32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */,
 				32A506D61DBE8D270035709E /* Info.plist */,
-				32A5071F1DC2A0640035709E /* weatherClass.swift */,
 				32A5071D1DC29C310035709E /* Conditions.swift */,
 			);
 			path = ClimateApp;
@@ -350,9 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A506CD1DBE8D270035709E /* ViewController.swift in Sources */,
+				32DB3A2C1DC2C9D9008E1BC1 /* currentWeather.swift in Sources */,
 				32A506CB1DBE8D270035709E /* AppDelegate.swift in Sources */,
 				32A5071E1DC29C310035709E /* Conditions.swift in Sources */,
-				32A507201DC2A0640035709E /* weatherClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37B3DTEVW5;
 				INFOPLIST_FILE = ClimateApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ClimateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,7 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 37B3DTEVW5;
 				INFOPLIST_FILE = ClimateApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ClimateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
