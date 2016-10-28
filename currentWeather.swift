@@ -48,7 +48,7 @@
             }
             return _currentTemp
         }
-        func downloadWeatherDetails(completed:DownloadComplete){
+        func downloadWeatherDetails(completed:@escaping DownloadComplete){
             if let currentWeatherRul = Current_Weather_Url{
                 Alamofire.request(currentWeatherRul).responseJSON{ response in
                     
@@ -77,8 +77,10 @@
                         }
                     }
                     
+                    completed()
+
                 }
-                completed()
+            
             }
             
             

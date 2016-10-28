@@ -24,7 +24,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYr-Vo-ove">
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYr-Vo-ove">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fremont, CA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccU-ym-vhy">
@@ -33,17 +33,17 @@
                                         <color key="textColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80° " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNV-BL-lvs">
-                                        <rect key="frame" x="202" y="34" width="97" height="74"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80° " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNV-BL-lvs">
+                                        <rect key="frame" x="218" y="34" width="81" height="74"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="74" id="kwZ-xd-drC"/>
+                                            <constraint firstAttribute="height" constant="74" id="0gy-VQ-h3z"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="54"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="45"/>
                                         <color key="textColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DIA-FR-emb">
-                                        <rect key="frame" x="0.0" y="0.0" width="213" height="241"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="241"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYN-lo-ERz">
                                                 <rect key="frame" x="8" y="28" width="81" height="26"/>
@@ -153,20 +153,20 @@
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="z2T-iT-awy" secondAttribute="bottom" constant="27" id="4d4-Mj-ZuA"/>
-                                    <constraint firstItem="0eU-8t-sfn" firstAttribute="trailing" secondItem="QNV-BL-lvs" secondAttribute="trailing" id="6Gw-zZ-iTT"/>
                                     <constraint firstItem="z2T-iT-awy" firstAttribute="top" secondItem="0eU-8t-sfn" secondAttribute="bottom" constant="41" id="CGe-fm-pfc"/>
                                     <constraint firstAttribute="trailing" secondItem="z2T-iT-awy" secondAttribute="trailing" constant="21" id="D5w-QM-shZ"/>
                                     <constraint firstItem="ccU-ym-vhy" firstAttribute="leading" secondItem="rYr-Vo-ove" secondAttribute="leading" constant="8" id="DAn-uX-zJ1"/>
-                                    <constraint firstAttribute="trailing" secondItem="QNV-BL-lvs" secondAttribute="trailing" constant="21" id="HwX-Xo-n6v"/>
-                                    <constraint firstItem="QNV-BL-lvs" firstAttribute="top" secondItem="rYr-Vo-ove" secondAttribute="top" constant="34" id="LV6-wQ-gV6"/>
-                                    <constraint firstItem="0eU-8t-sfn" firstAttribute="leading" secondItem="DIA-FR-emb" secondAttribute="trailing" constant="-5" id="MaG-RH-ncS"/>
+                                    <constraint firstItem="0eU-8t-sfn" firstAttribute="leading" secondItem="DIA-FR-emb" secondAttribute="trailing" constant="29" id="MaG-RH-ncS"/>
                                     <constraint firstItem="z2T-iT-awy" firstAttribute="top" secondItem="DIA-FR-emb" secondAttribute="bottom" constant="7" id="MpE-wy-4KU"/>
                                     <constraint firstItem="DIA-FR-emb" firstAttribute="top" secondItem="rYr-Vo-ove" secondAttribute="top" id="SYQ-0P-b5b"/>
-                                    <constraint firstItem="0eU-8t-sfn" firstAttribute="top" secondItem="QNV-BL-lvs" secondAttribute="bottom" constant="8" id="eA5-SO-Lx4"/>
+                                    <constraint firstItem="QNV-BL-lvs" firstAttribute="top" secondItem="rYr-Vo-ove" secondAttribute="top" constant="34" id="U3J-W1-2PF"/>
                                     <constraint firstItem="ccU-ym-vhy" firstAttribute="top" secondItem="DIA-FR-emb" secondAttribute="bottom" constant="8" symbolic="YES" id="hLE-5a-y8k"/>
-                                    <constraint firstAttribute="trailing" secondItem="DIA-FR-emb" secondAttribute="trailing" constant="107" id="m8i-rF-Szj"/>
+                                    <constraint firstItem="QNV-BL-lvs" firstAttribute="trailing" secondItem="0eU-8t-sfn" secondAttribute="trailing" id="he5-He-3Ea"/>
+                                    <constraint firstAttribute="trailing" secondItem="DIA-FR-emb" secondAttribute="trailing" constant="141" id="m8i-rF-Szj"/>
+                                    <constraint firstItem="QNV-BL-lvs" firstAttribute="trailing" secondItem="z2T-iT-awy" secondAttribute="trailing" id="mH4-UK-LaY"/>
                                     <constraint firstItem="DIA-FR-emb" firstAttribute="leading" secondItem="rYr-Vo-ove" secondAttribute="leading" id="pyI-zt-cr4"/>
                                     <constraint firstAttribute="height" constant="300" id="qqg-gk-yuy"/>
+                                    <constraint firstItem="0eU-8t-sfn" firstAttribute="top" secondItem="QNV-BL-lvs" secondAttribute="bottom" constant="8" symbolic="YES" id="wHF-Dd-Jd8"/>
                                     <constraint firstAttribute="bottom" secondItem="ccU-ym-vhy" secondAttribute="bottom" constant="26" id="wVW-nD-ssq"/>
                                 </constraints>
                             </view>
@@ -274,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xJ-tA-mam" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="195" y="104.5774647887324"/>
+            <point key="canvasLocation" x="194.40000000000001" y="103.89805097451276"/>
         </scene>
     </scenes>
     <resources>
