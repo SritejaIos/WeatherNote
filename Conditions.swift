@@ -6,7 +6,7 @@
 //  Copyright © 2016 teja. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 let bURL = "http://api.openweathermap.org/data/2.5/weather?"
 let Lat = "lat="

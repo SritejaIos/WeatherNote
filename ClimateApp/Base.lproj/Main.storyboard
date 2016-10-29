@@ -24,7 +24,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYr-Vo-ove">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYr-Vo-ove">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fremont, CA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccU-ym-vhy">
@@ -146,7 +146,7 @@
                                         <color key="textColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rain.png" translatesAutoresizingMaskIntoConstraints="NO" id="0eU-8t-sfn">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rain.png" translatesAutoresizingMaskIntoConstraints="NO" id="0eU-8t-sfn">
                                         <rect key="frame" x="208" y="116" width="91" height="91"/>
                                     </imageView>
                                 </subviews>
@@ -178,7 +178,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XDJ-wR-dEY" id="9kJ-3V-bg8">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I0q-2v-Cpj">
@@ -269,7 +269,7 @@
                         <outlet property="tableView" destination="piR-OP-tkj" id="4Rc-zG-rAU"/>
                         <outlet property="tempLabel" destination="QNV-BL-lvs" id="LTr-0c-YvS"/>
                         <outlet property="weatherImage" destination="0eU-8t-sfn" id="me7-5P-7Cb"/>
-                        <outlet property="weatherType" destination="FiZ-vU-RXm" id="TIe-rb-3Ll"/>
+                        <outlet property="weatherType" destination="Tyv-WL-1b6" id="DIr-s8-gBf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xJ-tA-mam" userLabel="First Responder" sceneMemberID="firstResponder"/>

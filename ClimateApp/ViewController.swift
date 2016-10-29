@@ -50,6 +50,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
        tempLabel.text = "\(currentWeather.currentTemp)\("°")"
         weatherType.text = currentWeather.weatherType
         dateLabel.text = currentWeather.date
+        weatherImage.image = UIImage(named: currentWeather.weatherType)
         
     }
 
