@@ -10,12 +10,13 @@
 		32A506CB1DBE8D270035709E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A506CA1DBE8D270035709E /* AppDelegate.swift */; };
 		32A506CD1DBE8D270035709E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A506CC1DBE8D270035709E /* ViewController.swift */; };
 		32A506D01DBE8D270035709E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A506CE1DBE8D270035709E /* Main.storyboard */; };
-		32A506D21DBE8D270035709E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A506D11DBE8D270035709E /* Assets.xcassets */; };
 		32A506D51DBE8D270035709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A506D31DBE8D270035709E /* LaunchScreen.storyboard */; };
 		32A506E01DBE8D280035709E /* ClimateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A506DF1DBE8D280035709E /* ClimateAppTests.swift */; };
 		32A506EB1DBE8D280035709E /* ClimateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A506EA1DBE8D280035709E /* ClimateAppUITests.swift */; };
 		32A506FB1DBFFA360035709E /* Rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A506FA1DBFFA360035709E /* Rain.png */; };
 		32A5071E1DC29C310035709E /* Conditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A5071D1DC29C310035709E /* Conditions.swift */; };
+		32A60AAA1DC7FE4A00883F4B /* weatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A60AA91DC7FE4A00883F4B /* weatherForecast.swift */; };
+		32A60AAC1DC801DA00883F4B /* Assets.XCassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A60AAB1DC801DA00883F4B /* Assets.XCassets */; };
 		32DB3A2C1DC2C9D9008E1BC1 /* currentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */; };
 		AC04A53D4C9880AF68FE8443 /* Pods_ClimateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A6D335DE507D9CFD9C48E5 /* Pods_ClimateApp.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +43,6 @@
 		32A506CA1DBE8D270035709E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32A506CC1DBE8D270035709E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32A506CF1DBE8D270035709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32A506D11DBE8D270035709E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A506D41DBE8D270035709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A506D61DBE8D270035709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A506DB1DBE8D280035709E /* ClimateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +54,8 @@
 		32A506FA1DBFFA360035709E /* Rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rain.png; sourceTree = "<group>"; };
 		32A506FC1DC0007B0035709E /* Climapte app.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Climapte app.sketch"; sourceTree = "<group>"; };
 		32A5071D1DC29C310035709E /* Conditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Conditions.swift; path = ../Conditions.swift; sourceTree = "<group>"; };
+		32A60AA91DC7FE4A00883F4B /* weatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = weatherForecast.swift; path = ../weatherForecast.swift; sourceTree = "<group>"; };
+		32A60AAB1DC801DA00883F4B /* Assets.XCassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.XCassets; sourceTree = "<group>"; };
 		32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = currentWeather.swift; path = ../currentWeather.swift; sourceTree = "<group>"; };
 		74A6D335DE507D9CFD9C48E5 /* Pods_ClimateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F62D5B95E106BF7F3F2FD12 /* Pods-ClimateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimateApp/Pods-ClimateApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,11 +126,12 @@
 				32A506FC1DC0007B0035709E /* Climapte app.sketch */,
 				32A506FA1DBFFA360035709E /* Rain.png */,
 				32A506CE1DBE8D270035709E /* Main.storyboard */,
-				32A506D11DBE8D270035709E /* Assets.xcassets */,
+				32A60AAB1DC801DA00883F4B /* Assets.XCassets */,
 				32A506D31DBE8D270035709E /* LaunchScreen.storyboard */,
-				32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */,
 				32A506D61DBE8D270035709E /* Info.plist */,
+				32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */,
 				32A5071D1DC29C310035709E /* Conditions.swift */,
+				32A60AA91DC7FE4A00883F4B /* weatherForecast.swift */,
 			);
 			path = ClimateApp;
 			sourceTree = "<group>";
@@ -275,8 +278,8 @@
 			files = (
 				32A506D51DBE8D270035709E /* LaunchScreen.storyboard in Resources */,
 				32A506FB1DBFFA360035709E /* Rain.png in Resources */,
-				32A506D21DBE8D270035709E /* Assets.xcassets in Resources */,
 				32A506D01DBE8D270035709E /* Main.storyboard in Resources */,
+				32A60AAC1DC801DA00883F4B /* Assets.XCassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +356,7 @@
 				32DB3A2C1DC2C9D9008E1BC1 /* currentWeather.swift in Sources */,
 				32A506CB1DBE8D270035709E /* AppDelegate.swift in Sources */,
 				32A5071E1DC29C310035709E /* Conditions.swift in Sources */,
+				32A60AAA1DC7FE4A00883F4B /* weatherForecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
