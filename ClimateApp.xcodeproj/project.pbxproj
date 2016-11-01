@@ -59,7 +59,7 @@
 		32A5071D1DC29C310035709E /* Conditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Conditions.swift; path = ../Conditions.swift; sourceTree = "<group>"; };
 		32A60AA91DC7FE4A00883F4B /* weatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = weatherForecast.swift; path = ../weatherForecast.swift; sourceTree = "<group>"; };
 		32A60AAB1DC801DA00883F4B /* Assets.XCassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.XCassets; sourceTree = "<group>"; };
-		32A664271DC9617C00EFB754 /* TableViewcellControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewcellControllerTableViewCell.swift; sourceTree = "<group>"; };
+		32A664271DC9617C00EFB754 /* TableViewcellControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewcellControllerTableViewCell.swift; path = ../TableViewcellControllerTableViewCell.swift; sourceTree = "<group>"; };
 		32DB3A2B1DC2C9D9008E1BC1 /* currentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = currentWeather.swift; path = ../currentWeather.swift; sourceTree = "<group>"; };
 		74A6D335DE507D9CFD9C48E5 /* Pods_ClimateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F62D5B95E106BF7F3F2FD12 /* Pods-ClimateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimateApp/Pods-ClimateApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 		32A506BE1DBE8D270035709E = {
 			isa = PBXGroup;
 			children = (
-				32A664271DC9617C00EFB754 /* TableViewcellControllerTableViewCell.swift */,
 				32A506C91DBE8D270035709E /* ClimateApp */,
 				32A506DE1DBE8D280035709E /* ClimateAppTests */,
 				32A506E91DBE8D280035709E /* ClimateAppUITests */,
@@ -131,6 +130,7 @@
 				32A506FC1DC0007B0035709E /* Climapte app.sketch */,
 				324F350E1DC8FC6F0054BA25 /* 14881590_1223760761006739_428625285_o.jpg */,
 				32A506FA1DBFFA360035709E /* Rain.png */,
+				32A664271DC9617C00EFB754 /* TableViewcellControllerTableViewCell.swift */,
 				32A506CE1DBE8D270035709E /* Main.storyboard */,
 				32A60AAB1DC801DA00883F4B /* Assets.XCassets */,
 				32A506D31DBE8D270035709E /* LaunchScreen.storyboard */,
